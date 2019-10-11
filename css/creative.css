@@ -1,15 +1,3 @@
-/*!
- * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
- */
-
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -230,6 +218,10 @@ th {
 label {
   display: inline-block;
   margin-bottom: 0.5rem;
+}
+
+li {
+  font-size:16px;
 }
 
 button {
@@ -484,9 +476,23 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
+  margin: 50px 0px 50px 20px;
 }
+
+.kino-text {
+  margin-bottom: 0.5rem;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  line-height: 1.2;
+  max-width: 100%;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -6205,7 +6211,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #F8F8F8 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9359,6 +9365,14 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
+.text-about {
+  color: #000 !important
+}
+
+.text-light {
+  color: #B6B6B6 !important;
+}
+
 .text-white {
   color: #fff !important;
 }
@@ -9409,10 +9423,6 @@ a.text-warning:hover, a.text-warning:focus {
 
 a.text-danger:hover, a.text-danger:focus {
   color: #a71d2a !important;
-}
-
-.text-light {
-  color: #f8f9fa !important;
 }
 
 a.text-light:hover, a.text-light:focus {
@@ -9658,7 +9668,8 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg"); */
+  background-color: #F8F8F8;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
