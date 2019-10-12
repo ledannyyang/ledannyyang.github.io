@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -46,10 +48,45 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+@color-light: white;
+@color-dim: #6c6d6d;
+@spacing: 50px;
+@radius: 4px;
+
+@date: 80px;
+@dotborder: 4px;
+@dot: 11px;
+@line: 4px;
+
+#timeline-content {
+  margin-top: @spacing;
+  text-align: center;
+  width: 35%;
+}
+
+.timeline {
+  border-left: @line solid @color-primary;
+  border-bottom-right-radius: @radius;
+  border-top-right-radius: @radius;
+  background: fade(@color-light, 3%);
+  color: fade(white, 80%);
+  font-family: @font-text;
+  margin: @spacing auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: @spacing;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 100%;
+}
+
 .fa-icon {
   font-size: 16px;
   display: inline;
-  padding-left:10px;
+  padding-left:20px;
 }
 
 .fa-linkedin {
