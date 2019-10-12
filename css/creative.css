@@ -46,6 +46,32 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+.fa-icon {
+  font-size: 16px;
+  display: inline;
+  padding-left:10px;
+}
+
+.fa-linkedin {
+  color: #007bb5;
+}
+
+.fa-instagram {
+  color: #125688;
+}
+
+.fa-github {
+  color: #125688;
+}
+
+ .actions li {
+   display: inline;
+   list-style-type: none;
+   padding-right: 20px;
+   font-size: 1.8em;
+ }
+
+
 body {
   margin: 0;
   font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -95,10 +121,18 @@ address {
 }
 
 ol,
-ul,
 dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.ul-skill {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type:square;
 }
 
 ol ol,
@@ -484,6 +518,13 @@ mark,
 .img-fluid-google {
   max-width: 60%;
   height: auto;
+}
+
+.font-project {
+  margin-bottom: 0.5rem;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .kino-text {
