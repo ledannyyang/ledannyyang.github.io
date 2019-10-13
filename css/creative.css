@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 #timeline-content {
   margin-top: @spacing;
   text-align: center;
-  width: 35%;
+  width: 100%;
 }
 
 .timeline {
