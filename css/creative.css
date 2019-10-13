@@ -81,6 +81,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   text-align: left;
   font-weight: 100;
   max-width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .fa-icon {
@@ -138,6 +140,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.justifyparagraph {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 abbr[title],
