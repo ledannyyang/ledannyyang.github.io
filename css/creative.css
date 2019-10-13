@@ -145,6 +145,8 @@ p {
 .justifyparagraph {
   text-align: justify;
   text-justify: inter-word;
+  line-height: 1.6em;
+  margin-bottom: 1rem;
 }
 
 abbr[title],
