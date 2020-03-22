@@ -64,6 +64,27 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   width: 100%;
 }
 
+.video-block{
+  border-left: @line solid @color-primary;
+  border-bottom-right-radius: @radius;
+  border-top-right-radius: @radius;
+  background: fade(@color-light, 3%);
+  color: fade(white, 80%);
+  font-family: @font-text;
+  margin: 60px 180px;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: @spacing;
+  list-style: none;
+  text-align: left;
+  font-weight: 100;
+  max-width: 100%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .timeline {
   border-left: @line solid @color-primary;
   border-bottom-right-radius: @radius;
