@@ -110,7 +110,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .fa-icon {
   font-size: 16px;
   display: inline;
-  padding-left:20px;
 }
 
 .fa-linkedin {
@@ -585,7 +584,7 @@ mark,
 
 .img-fluid-google {
   max-width: 60%;
-  height: auto;
+  height: 60px;
 }
 
 .font-project {
