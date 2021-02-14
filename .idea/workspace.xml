@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be1bfe1-9c4c-41f7-b209-cc1c5e4afd0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/telegramBot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/telegramBot.js" beforeDir="false" afterPath="$PROJECT_DIR$/telegramBot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
       <updated>1584041830302</updated>
       <workItem from="1584041834245" duration="283000" />
       <workItem from="1584898821319" duration="3246000" />
-      <workItem from="1613302116299" duration="11461000" />
+      <workItem from="1613302116299" duration="11657000" />
     </task>
     <servers />
   </component>
