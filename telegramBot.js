@@ -4,7 +4,7 @@ const TeleBot = require('telebot');
 const bot = new TeleBot(TELEGRAM_BOT_TOKEN);
 
 const chatId = 920224495
-const date = new Date().toLocaleString()
-const helloBot = "A wild recruiter is visiting your page at " + date;
+const date = new Date().toISOString()
+const helloBot = "A wild user is visiting your page at " + date;
 
 bot.sendMessage(chatId, helloBot);
