@@ -32,7 +32,7 @@
         "@fortawesome/fontawesome-free": "5.10.2",
         "bootstrap": "4.3.1",
         "clientside-require": "^4.7.2",
-        "jquery": "3.4.1",
+        "jquery": "3.5.0",
         "jquery.easing": "^1.4.1",
         "magnific-popup": "^1.1.0",
         "node-telegram-bot-api": "^0.51.0",
