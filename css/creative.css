@@ -4793,12 +4793,12 @@ input[type="button"].btn-block {
   border-bottom-right-radius: 0.2rem;
 }
 
-.badge {
+.badge-main {
   display: inline-block;
   padding: 0.25em 0.4em;
-  font-size: 75%;
+  font-size: 80%;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.5;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
@@ -4826,14 +4826,16 @@ a.badge:hover, a.badge:focus {
 }
 
 .badge-pill {
-  padding-right: 0.6em;
-  padding-left: 0.6em;
-  border-radius: 10rem;
+  padding-right:1em;
+  padding-left: 1em;
+  border-radius: 8rem;
+  margin-top: 5px;
 }
 
 .badge-primary {
   color: #fff;
   background-color: #3D99EA;
+  font-family: Raleway !important;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
