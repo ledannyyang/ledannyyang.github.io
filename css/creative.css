@@ -9885,3 +9885,11 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.square-img {
+  height: 200px;
+}
+
+.margin-top {
+  margin-top: 80px;
+}
