@@ -9812,7 +9812,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("../img/bg-masthead.png");
+  background: url("../img/masthead.png");
   background-color: #F8F8F8;
   background-position: center;
   background-repeat: no-repeat;
